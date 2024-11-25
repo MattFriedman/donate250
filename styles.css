@@ -1,0 +1,51 @@
+h1 {
+    color: #ff6600;
+    font-family: 'Comic Sans MS', 'Comic Sans', cursive;
+}
+
+p {
+    font-size: 18px;
+    line-height: 1.6;
+    font-family: Arial, sans-serif;
+}
+
+a {
+    color: #0066cc;
+    text-decoration: none;
+}
+
+h2 {
+    color: #ff6600;
+    font-family: 'Comic Sans MS', 'Comic Sans', cursive;
+}
+
+footer {
+    margin-top: 50px;
+}
+
+footer p {
+    color: #555;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.centered-content {
+    text-align: center;
+    padding: 0 10px;
+}
+
+@media (max-width: 600px) {
+    h1 {
+        font-size: 28px;
+    }
+
+    p {
+        font-size: 16px;
+    }
+
+    h2 {
+        font-size: 22px;
+    }
+}
